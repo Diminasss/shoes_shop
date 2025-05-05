@@ -11,3 +11,7 @@ git status - узнать файлы из индекса
 git commit -m "Комментарий к комиту" - создать коммит с файлами из индекса
 
 git push origin main - отправить коммит в ветку main  в удалённом репозитории github
+
+git branch develop - создание ветки develop для разработки
+
+git checkout develop - переключение на ветку develop
