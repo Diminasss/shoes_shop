@@ -11,3 +11,13 @@ git status - узнать файлы из индекса
 git commit -m "Комментарий к комиту" - создать коммит с файлами из индекса
 
 git push origin main - отправить коммит в ветку main  в удалённом репозитории github
+
+git branch develop - создание ветки develop для разработки
+
+git checkout develop - переключение на ветку develop
+
+Для того, чтобы копировать последний коммит из ветки develop в ветку main необходимо использовать следующие команды:
+git checkout main - переключиться на ветку main
+git cherry-pick develop - взять последний коммит из ветки develop
+или
+git cherry-pick *хеш коммита* - взять коммит через хеш
